@@ -8,7 +8,12 @@ import { PropertyCardComponent } from './Property/property-card/property-card.co
 import { PropertyListComponent } from './Property/property-list/property-list.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, PropertyCardComponent, PropertyListComponent],
+  declarations: [
+    AppComponent,
+    NavBarComponent,
+    PropertyCardComponent,
+    PropertyListComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
